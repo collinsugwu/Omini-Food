@@ -12,7 +12,6 @@ html{
 	font-weight: 300;
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
-
 }
 
 .row{
@@ -83,4 +82,35 @@ h1{
 .btn-ghost:active{
 	border: 1px solid #f5aa32;
 	color: #fff;
+}
+
+.logo{
+	height: 100px;
+	width: auto;
+	float: left;
+}
+.main-nav{
+	float: right;
+	list-style: none;
+}
+
+.main-nav li{
+	display: inline;
+	margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+	text-decoration: none;
+	color: #fff;
+	font-size: .8rem;
+	text-transform: uppercase;
+		border-bottom: 2px solid transparent;
+		transition: border 0.4s;
+		padding-bottom: 8px;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+	border-bottom: 2px solid #f39c12;
+	transition: border 0.4s;
 }
