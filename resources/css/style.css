@@ -26,16 +26,45 @@ header{
 	height: 100vh;
 }
 
+section{
+
+	padding: 80 0;
+}
+
+h1,
+h2,
+h3{
+	font-size: 240%;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
 
 h1{
 	margin-top: 0;
 	margin-bottom: 20px;
 	color: #fff;
-	font-size: 240%;
-	font-weight: 300;
-	text-transform: uppercase;
-	letter-spacing: 1px;
 	word-spacing: 4px;
+}
+
+h2{
+	font-size: 180%;
+	text-align: center;
+	word-spacing: 2px;
+}
+
+h3{
+	font-size: 110%;
+}
+
+h2:after{
+	display: block;
+	width: 100px;
+	height: 2px;
+	background-color: #f39c12;
+	content: '';
+	margin: 0 auto;
+	margin-top: 20px;
 }
 
 .hero-text-box{
@@ -116,3 +145,17 @@ h1{
 }
 
 /*features*/
+.long-text{
+	line-height: 140%;
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.big-icon{
+	display: block;
+	color: #f39c12;
+	font-size: 350%;
+	width: 100px;
+	margin: 0 auto;
+}
