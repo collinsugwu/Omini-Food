@@ -145,17 +145,43 @@ h2:after{
 }
 
 /*features*/
-.long-text{
+.long-text {
 	line-height: 140%;
 	width: 70%;
 	margin: 0 auto;
 	margin-bottom: 20px;
 }
 
-.big-icon{
+.big-icon {
 	display: block;
 	color: #f39c12;
 	font-size: 350%;
 	width: 100px;
 	margin: 0 auto;
+}
+
+/*Meals*/
+.section-meals {
+	width: 100%;
+}
+
+.meals-showcase{
+	list-style: none;
+	width: 100%;
+}
+
+.meals-showcase li {
+	display: inline;
+	width: 25%;
+	float: left;
+}
+
+.meal-photo{
+	width: 100%;
+	margin: 0;
+}
+
+.meal-photo img {
+	width: 100%;
+	height: auto;
 }
