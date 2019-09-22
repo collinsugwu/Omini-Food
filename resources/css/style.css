@@ -67,7 +67,19 @@ h2:after{
 	margin-top: 20px;
 }
 
-.hero-text-box{
+
+.clearfix {
+	zoom:1;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}
+
+.hero-text-box {
 	position: absolute;
 	width: 1140px;
 	top: 50%;
@@ -176,12 +188,63 @@ h2:after{
 	float: left;
 }
 
-.meal-photo{
+.meal-photo {
 	width: 100%;
 	margin: 0;
+	overflow: hidden;
+	background-color: #000;
 }
 
 .meal-photo img {
+	opacity: 0.7;
 	width: 100%;
 	height: auto;
+	transform: scale(1.15);
+	transition: transform 0.5s, opacity 0.5s;
+	
+}
+
+.meal-photo img:hover {
+	opacity: 1;
+	transform: scale(1.03);	
+}
+
+/*How it works*/
+
+.steps-box:first-child{
+	text-align: right;
+	padding: 3%;
+	margin-top: 30px;
+}
+
+.steps-box:last-child{
+	text-align: left; 
+	margin-top: 70px;
+}
+.app-screen {
+	width: 40%;
+}
+
+.working-step {
+	margin-bottom: 50px;
+}
+
+.working-step div{
+	display: inline;
+	float: left;
+	width: 50px;
+	height: 50px;
+	color: #f5aa32;
+	border-radius: 50%;
+	padding: 5px;
+	font-size: 150%;
+	text-align: center;
+	margin-right: 5%;
+	border: 2px solid #f5aa32;
+}
+
+.steps-box:last-child img{
+	height: 50px;
+	width: auto;
+	margin: 5%;
 }
