@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-html{
+html {
 
 	background-color: #fff;
 	color: #555;
@@ -14,12 +14,12 @@ html{
 	text-rendering: optimizeLegibility;
 }
 
-.row{
+.row {
 	max-width: 1140px;
 	margin: 0 auto;
 }
 
-header{
+header {
 	background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url("img/hero.jpg");
 	background-size: cover;
 	background-position: center;
@@ -34,14 +34,14 @@ header{
 	transform: translate(-50%, -50%);
 }
 
-section{
+section {
 
 	padding: 80 0;
 }
 
 h1,
 h2,
-h3{ 
+h3 { 
 	font-size: 240%;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -55,17 +55,17 @@ h1{
 	word-spacing: 4px;
 }
 
-h2{
+h2 {
 	font-size: 180%;
 	text-align: center;
 	word-spacing: 2px;
 }
 
-h3{
+h3 {
 	font-size: 110%;
 }
 
-h2:after{
+h2:after {
 	display: block;
 	width: 100px;
 	height: 2px;
@@ -79,6 +79,7 @@ h2:after{
 .clearfix {
 	zoom:1;
 }
+
 .clearfix:after {
 	content: ".";
 	display: block;
@@ -87,10 +88,8 @@ h2:after{
 	clear: both;
 }
 
-
-
 .btn:link,
-.btn:visited{
+.btn:visited {
 	display: inline-block;
 	padding: 10px 30px;
 	font-weight: 300;
@@ -99,51 +98,52 @@ h2:after{
 }
 
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited {
 	background-color: #f39c12;
 	color: #fff;
 	margin-right: 15px;
 }
 
 .btn-ghost:link,
-.btn-ghost:visited{
+.btn-ghost:visited {
 	border: 1px solid #f39c12;
 	color: #f39c12;
 }
 
 .btn:hover,
-.btn:active{
+.btn:active {
 	background-color: #f5aa32;
 }
 
 .btn-full:hover,
-.btn-full:active{
+.btn-full:active {
 	border: 1px solid #f5aa32;
 }
 
 .btn-ghost:hover,
-.btn-ghost:active{
+.btn-ghost:active {
 	border: 1px solid #f5aa32;
 	color: #fff;
 }
 
-.logo{
+.logo {
 	height: 100px;
 	width: auto;
 	float: left;
 }
-.main-nav{
+
+.main-nav {
 	float: right;
 	list-style: none;
 }
 
-.main-nav li{
+.main-nav li {
 	display: inline;
 	margin-left: 40px;
 }
 
 .main-nav li a:link,
-.main-nav li a:visited{
+.main-nav li a:visited {
 	text-decoration: none;
 	color: #fff;
 	font-size: .8rem;
@@ -152,8 +152,9 @@ h2:after{
 		transition: border 0.4s;
 		padding-bottom: 8px;
 }
+
 .main-nav li a:hover,
-.main-nav li a:active{
+.main-nav li a:active {
 	border-bottom: 2px solid #f39c12;
 	transition: border 0.4s;
 }
@@ -179,7 +180,7 @@ h2:after{
 	width: 100%;
 }
 
-.meals-showcase{
+.meals-showcase {
 	list-style: none;
 	width: 100%;
 }
@@ -203,26 +204,25 @@ h2:after{
 	height: auto;
 	transform: scale(1.15);
 	transition: transform 0.5s, opacity 0.5s;
-	
 }
 
 .meal-photo img:hover {
 	opacity: 1;
 	transform: scale(1.03);	
 }
-
 /*How it works*/
 
-.steps-box:first-child{
+.steps-box:first-child {
 	text-align: right;
 	padding: 3%;
 	margin-top: 30px;
 }
 
-.steps-box:last-child{
+.steps-box:last-child {
 	text-align: left; 
 	margin-top: 70px;
 }
+
 .app-screen {
 	width: 40%;
 }
@@ -231,7 +231,7 @@ h2:after{
 	margin-bottom: 50px;
 }
 
-.working-step div{
+.working-step div {
 	display: inline;
 	float: left;
 	width: 50px;
@@ -245,7 +245,7 @@ h2:after{
 	border: 2px solid #f5aa32;
 }
 
-.steps-box:last-child img{
+.steps-box:last-child img {
 	height: 50px;
 	width: auto;
 	margin: 5%;
